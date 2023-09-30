@@ -20,4 +20,4 @@ jobs:
         working-directory: ./
         run: |
           docker-compose up -d
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/mern-app:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/mern-app
